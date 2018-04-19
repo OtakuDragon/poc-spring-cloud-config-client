@@ -3,7 +3,7 @@
 #application-{profile}.yml e pode ser qualquer String.
 spring:
   application:
-    name: poc-spring-config-client
+    name: poc-spring-cloud-config-client
   profiles:
     active:
       homol
