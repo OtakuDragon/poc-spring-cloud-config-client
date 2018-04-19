@@ -1,0 +1,12 @@
+#-Dspring.profiles.active=prod nos vm arguments de inicialização do ambiente para escolher qual configuração usar
+#prod é uma das profiles definidas na pasta poc-spring-config-client no servidor de configuração atraves do padrão
+#application-{profile}.yml e pode ser qualquer String.
+spring:
+  application:
+    name: poc-spring-config-client
+  profiles:
+    active:
+      homol
+  cloud:
+    config:
+      uri: http://localhost:8888
